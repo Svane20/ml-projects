@@ -1,4 +1,4 @@
-from model_builder import VisionTransformer
+from model import VisionTransformer
 from data_setup import create_dataloaders
 from utils import download_data, set_seeds, save_model
 from engine import train

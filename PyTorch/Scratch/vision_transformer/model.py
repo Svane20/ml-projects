@@ -3,6 +3,7 @@ import torch.nn as nn
 
 from model_builder import TransformerEncoder, PositionalEmbedding, PatchEmbedding
 
+
 class VisionTransformer(nn.Module):
     """Vision Transformer (ViT) module.
 
